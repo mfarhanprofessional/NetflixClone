@@ -1,5 +1,46 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+.main{
+    background: url("assets/img/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1080px,145vw);
+    color: white;
+    height: 80vh;
+    position: relative;
+    border: 2px solid yellow;
+}
+.main .box{
+    height: 100%;
+    /* border: 2px solid blue; */
+    background-color: black;
+    opacity: 0.4;
+    position: absolute; 
+    top: 0;
+    
+    
+}
+nav{
+    width: 80vw;
+    height: 62px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+.navLogo img{
+    width: 115px;
+    position: relative;
+    z-index: 1;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
 }
