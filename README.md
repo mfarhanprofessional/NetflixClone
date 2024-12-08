@@ -19,4 +19,14 @@ git clone https://github.com/mfarhanprofessional/NetflixClone.git
 2. Open the `index.html` file in any web browser.
 
 ## Screenshot
-![Netflix Clone Screenshot](image.jpg)
+![Netflix Clone Screenshot](https://github.com/mfarhanprofessional/NetflixClone/blob/4d0919636d18faa9dc8640772c24a89eebf8732e/assets/img/IMG_20241208_222631.jpg)
+
+![Netflix Clone Screenshot](https://github.com/mfarhanprofessional/NetflixClone/blob/4d0919636d18faa9dc8640772c24a89eebf8732e/assets/img/IMG_20241208_222657.jpg)
+
+![Netflix Clone Screenshot](https://github.com/mfarhanprofessional/NetflixClone/blob/4d0919636d18faa9dc8640772c24a89eebf8732e/assets/img/IMG_20241208_222717.jpg)
+
+![Netflix Clone Screenshot](https://github.com/mfarhanprofessional/NetflixClone/blob/4d0919636d18faa9dc8640772c24a89eebf8732e/assets/img/IMG_20241208_222736.jpg)
+
+![Netflix Clone Screenshot](https://github.com/mfarhanprofessional/NetflixClone/blob/4d0919636d18faa9dc8640772c24a89eebf8732e/assets/img/IMG_20241208_222800.jpg)
+
+![Netflix Clone Screenshot](https://github.com/mfarhanprofessional/NetflixClone/blob/4d0919636d18faa9dc8640772c24a89eebf8732e/assets/img/IMG_20241208_222825.jpg)
