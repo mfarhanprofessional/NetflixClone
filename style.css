@@ -27,7 +27,7 @@ body{
 }
 nav{
     width: 80vw;
-    height: 62px;
+    height: 100px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -49,7 +49,7 @@ nav{
     align-items: center;
 }
 .hero{
-    height: calc(100% - 23px);
+    height: calc(100% - 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@ nav{
     border: 1px solid rgba(219, 219, 219, 0.5);
 }
 .btn-lg{
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
     background-color: red;
     color: rgb(255, 255, 255);
@@ -89,7 +89,6 @@ nav{
 }
 
 .hero_button{
-    font-size: 24px;
     gap: 5px;
     display: flex;
     justify-content: center;
@@ -97,13 +96,19 @@ nav{
 }
 .btn_input{
     background: rgba(23, 23, 23, 0.7);
-    padding: 18px 23px;
+    padding: 12px 20px;
     border: 1px solid rgba(255, 255, 255,0.4);
     border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+input::placeholder {
+    font-size: 16px; 
+    color: white;
 }
 .sepration{
     width: 100%;
-    height: 10px;
+    height: 7px;
     background: rgba(27, 25, 25, 0.7);
 }
 .first{
@@ -114,6 +119,11 @@ nav{
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 1100px) {
+    .first{
+        flex-wrap: wrap;
+    }
+}
 .first > div{
     display: flex;
     flex-direction: column;
@@ -121,8 +131,10 @@ nav{
 .first > div :nth-child(1){
     font-size: 48px;
     font-weight: 600;
+    text-align: center;
 }
 .first >div :nth-child(2){
+    text-align: center;
     font: 18px;
 }
 .secImg{
@@ -151,7 +163,7 @@ nav{
     align-items: center;
     font-size: 16px;
     padding: 22px 10px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .faq > h2{
     text-align: center;
@@ -161,7 +173,61 @@ nav{
 .faqBoxCon{
     margin: 20px 0;
 }
+
+footer{
+    width: 60vw;
+    margin: auto;
+    color: white;
+    padding: 20px 0;
+    
+}
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 @media only screen and (max-width: 660px) {
+    .first > div :nth-child(1){
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .faq > h2{
+        font-size: 30px;
+    }
+    footer{
+        width: 80vw;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-item{
+        margin: 20% 20%;
+    }
+    .secImg img{
+        position: relative;
+        z-index: 10;
+        width: 300px;
+    }
+    .secImg video{
+        position: absolute;
+        right: 43px;
+        top: 39px;
+        width: 241px;
+        background-size: cover;
+    }
     .hero{
         gap: 5px;
     }
@@ -179,7 +245,7 @@ nav{
     }
     .btn_input{
         padding: 14px 2px;
-        width: 90%vw;
+        width: 90vw;
     }
     .hero_button{
         flex-direction: column;
