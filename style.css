@@ -137,6 +137,30 @@ nav{
     right: 76px;
     top: 91px;
 }
+
+.faq{
+    color: white;
+    width: 70vw;
+    margin: auto;
+    padding: 25px 0;
+}
+.faqBox{
+    background-color: rgb(92, 89, 89);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding: 22px 10px;
+    margin: 10px 0;
+}
+.faq > h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.faqBoxCon{
+    margin: 20px 0;
+}
 @media only screen and (max-width: 660px) {
     .hero{
         gap: 5px;
