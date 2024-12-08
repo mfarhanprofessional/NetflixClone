@@ -19,4 +19,4 @@ git clone https://github.com/mfarhanprofessional/NetflixClone.git
 2. Open the `index.html` file in any web browser.
 
 ## Screenshot
-![Netflix Clone Screenshot](https://github.com/mfarhanprofessional/NetflixClone/blob/f4dc81b6cbcc53a243282938bbbf590a7165b2ad/Screenshot%20from%202024-12-08%2012-09-26.png)
+![Netflix Clone Screenshot](image.jpg)
